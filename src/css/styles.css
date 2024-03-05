@@ -67,6 +67,23 @@ button:active {
     scale: 1.05;
 }
 
-label .apagar{
+label .apagar {
     background-color: red;
+}
+
+@media (max-width: 767px) {
+
+    .title {
+        margin-left: 0px;
+        font-size: 48px;
+        color: #00ff7f;
+        text-align: center;
+    }
+
+
+    label {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
 }
